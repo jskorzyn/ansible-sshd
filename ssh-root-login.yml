@@ -9,10 +9,9 @@
       PermitRootLogin: false
       PasswordAuthentication: false
       Match:
-        - Condition: "Address 172.27.0.0/16"
+        - Condition: "Address 172.27.5.0/24"
           PermitRootLogin: true
           PasswordAuthentication: true
 
   roles:
     - role: redhat.rhel_system_roles.sshd
-    
