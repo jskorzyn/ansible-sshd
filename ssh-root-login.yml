@@ -9,7 +9,7 @@
       PermitRootLogin: false
       PasswordAuthentication: false
       Match:
-        - Condition: "Address 172.27.5.0/24"
+        - Condition: "Address 10.28.20.0/24"
           PermitRootLogin: true
           PasswordAuthentication: true
 
