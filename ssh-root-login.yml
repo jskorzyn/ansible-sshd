@@ -15,4 +15,3 @@
 
   roles:
     - role: redhat.rhel_system_roles.sshd
-
