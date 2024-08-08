@@ -9,9 +9,9 @@
       PermitRootLogin: false
       PasswordAuthentication: false
       Match:
-        # - Condition: "Address 10.28.69.0/24"
-        #   PermitRootLogin: true
-        #   PasswordAuthentication: true
+        - Condition: "Address 10.28.69.0/24"
+          PermitRootLogin: true
+          PasswordAuthentication: true
         - Condition: "Address 10.28.20.0/24"
           PermitRootLogin: true
           PasswordAuthentication: true
