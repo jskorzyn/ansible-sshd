@@ -10,7 +10,7 @@
       PasswordAuthentication: false
       Match:
         - Condition: "Address 10.28.69.0/24"
-          PermitRootLogin: false
+          PermitRootLogin: true
           PasswordAuthentication: true
 
   roles:
